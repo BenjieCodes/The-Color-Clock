@@ -1,2 +1,8 @@
 body {
-  background: green; }
+  background-color: #000000; }
+
+#clock {
+  margin-top: 50%;
+  margin-bottom: 50%;
+  color: #FEFEFE;
+  text-align: center; }
