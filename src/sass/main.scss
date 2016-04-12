@@ -1,2 +1,6 @@
-$clockColor: #FEFEFE;
-$bground: #000000;
+$newFont: 'Lobster', cursive;
+
+
+#clock {
+  font-family: $newFont;
+}
