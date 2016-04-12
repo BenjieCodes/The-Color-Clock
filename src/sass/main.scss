@@ -1,6 +1,15 @@
-$newFont: 'Lobster', cursive;
+// $newFont: 'Lobster', cursive;
+
+@mixin centerItOut ($top) {
+  margin-top:($top);
+}
+
 
 
 #clock {
-  font-family: $newFont;
+  @include centeritOut(50%);
+  color: white;
+  font-size: 222px;
+  text-align: center;
+  // font-family: $newFont;
 }
