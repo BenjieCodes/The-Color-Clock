@@ -1,15 +1,20 @@
-// $newFont: 'Lobster', cursive;
-
-@mixin centerItOut ($top) {
+$newFont: 'Lobster', cursive;
+$border: 10px solid white;
+@mixin sizeOfPage ($width,$height) {
+  width: $width;
+  height: $height;
+}
+@mixin centerItOut ($top,$bottom) {
   margin-top:($top);
+  margin-bottom: ($bottom);
 }
 
-
-
 #clock {
-  @include centeritOut(50%);
+  margin: 0;
+  @include centerItOut(50%,50%);
+  border: $border;
   color: white;
   font-size: 222px;
   text-align: center;
-  // font-family: $newFont;
+  font-family: $newFont;
 }

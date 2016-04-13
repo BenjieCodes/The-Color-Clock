@@ -1,4 +1,9 @@
 #clock {
+  margin: 0;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  border: 10px solid white;
+  color: white;
   font-size: 222px;
   text-align: center;
   font-family: "Lobster", cursive; }

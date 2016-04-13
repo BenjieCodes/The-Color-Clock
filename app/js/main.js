@@ -1,6 +1,6 @@
 // Make a variable that will display current date
 var showClock = document.querySelector("#clock");
-var changeBg = document.querySelector("body")
+var changeBg = document.querySelector("body");
 
 function currentClock () {
   var currentTime = new Date ();
@@ -43,7 +43,6 @@ function colorChange () {
   var hexaColor = ("#" + newhr + "" + newmin + "" + newsec);
   changeBg.style.background = hexaColor;
 }
-
 
 var finalColor = setInterval(colorChange, 2000);
 var finalClock = setInterval(currentClock, 1000);
